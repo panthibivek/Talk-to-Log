@@ -1,0 +1,1 @@
+export const BACKEND_URL_DOMAIN_NAME = "127.0.0.1:8000";
