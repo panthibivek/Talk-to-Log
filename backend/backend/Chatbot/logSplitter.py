@@ -41,7 +41,7 @@ def create_faiss_for_logs(presplit) -> FAISS:
                 indv_metadata["date"] = date
                 metadatas.append(indv_metadata) 
 
-    embeddings = OpenAIEmbeddings(openai_api_key="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")
+    embeddings = OpenAIEmbeddings(openai_api_key="")
     
     total_number_of_chunks = len(logs_chunks)
     max_limit = 100

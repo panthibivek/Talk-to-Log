@@ -30,7 +30,7 @@ from langchain.callbacks.manager import (
 from langchain.docstore.document import Document
 from langchain.schema import BaseRetriever
 
-api_key = "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"
+api_key = ""
 
 async def connect_to_llm(vectorstore: VectorStore, config: dict, stream_handler=None, summary_flag_=False):
 
